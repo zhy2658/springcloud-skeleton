@@ -1,4 +1,4 @@
-一个基于Spring Cloud、Eureka、、Mysql的微服务项目骨架，代码完全开源。
+一个基于Spring Cloud、Eureka、Mysql的微服务项目骨架，代码完全开源。
 
 ## 技术栈
 - Eureka
