@@ -1,0 +1,20 @@
+server:
+  port: 8700
+
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+#          本地仓库或者远程仓库地址
+#          uri: file://${user.home}\\Desktop\\config-repo
+          uri:  E:\User\Desktop\config-repo
+#          默认分支设定为你自己本地或远程分支的名称
+          default-label: master
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8801/eureka,http://localhost:8802/eureka

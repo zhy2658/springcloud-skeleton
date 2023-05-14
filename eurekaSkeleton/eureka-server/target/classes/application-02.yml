@@ -1,0 +1,18 @@
+server:
+  port: 8802
+
+spring:
+  application:
+    name: eurekaserver
+
+eureka:
+  instance:
+    hostname: eureka02
+  #  开启之前需要修改下客户端设置 (虽然是服务器
+  client:
+#    由于我们作为服务端角色,所以不需要设置服务端 改为false
+    fetch-registry: false
+#    将eureka服务端指向自己
+    service-url:
+      defaultZone: http://eureka01:8801/eureka
+

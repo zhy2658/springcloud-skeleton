@@ -1,0 +1,12 @@
+#server:
+#  port: 8080
+
+spring:
+  application:
+    name: userservice
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8801/eureka,http://localhost:8802/eureka
