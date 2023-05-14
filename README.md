@@ -5,7 +5,9 @@
 - Hystrix
 - Gateway
 - Config Server
+- Feign
 - Mysql
+
 
 
 ## 前置要求
